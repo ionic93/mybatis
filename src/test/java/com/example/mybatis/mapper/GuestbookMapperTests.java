@@ -22,6 +22,7 @@ class GuestbookMapperTests {
   void getList() {
     guestbookMapper.getList().forEach(guestbook ->{
       System.out.println(guestbook);
+      //test
     });
   }
 
